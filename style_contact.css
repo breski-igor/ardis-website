@@ -306,9 +306,10 @@ body.loaded {
         gap: 2rem;
     }
     
-    .nav-list a {
-        font-size: 1.5rem;
-        font-weight: 350;
+   .nav-list a,
+    .nav-list a.active {
+        font-weight: 350; 
+        color: #111;
     }
     
     .lang-switch {
