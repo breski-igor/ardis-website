@@ -349,9 +349,9 @@ body.loaded {
     body.menu-open {
         overflow: hidden;
     }
+}
 
-    
-}@media (max-width: 480px) {
+@media (max-width: 480px) {
     .header {
         padding: 0 1rem;
     }
@@ -390,12 +390,24 @@ body.loaded {
         gap: 2rem;
     }
     
-   .nav-list a,
+    .nav-list a,
     .nav-list a.active {
-        font-weight: 350; 
+        font-weight: 400;      
+        font-size: 1.5rem; 
         color: #111;
+        letter-spacing: 0.03em;
+        text-decoration: none;
     }
-    
+
+    .nav-list a:hover,
+    .nav-list a.active:hover {
+        color: #555;
+    }
+
+    .nav-list a:hover::after {
+        width: 100%;
+    }
+
     .lang-switch {
         gap: 1rem;
     }
