@@ -393,9 +393,9 @@ body.loaded {
     .nav-list a,
     .nav-list a.active {
         font-weight: 400;      
-        font-size: 1.5rem; 
+        font-size: 0.95rem; 
         color: #111;
-        letter-spacing: 0.03em;
+        letter-spacing: 0.05em;
         text-decoration: none;
     }
 
