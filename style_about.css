@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;450&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    color: #111;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    line-height: 1.6;
+}
+
+body.loaded {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: height 0.6s ease, padding 0.6s ease, background 0.6s ease;
+    height: 90px;
+    padding: 0 3rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 45px;
+    width: auto;
+    filter: brightness(0);
+    transition: opacity 0.3s ease;
+}
+
+.logo img:hover {
+    opacity: 0.7;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    font-size: 0.95rem;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+    color: #555;
+}
+
+.nav-list a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 1px;
+    background-color: #111;
+    transition: width 0.3s ease;
+}
+
+.nav-list a:hover::after {
+    width: 100%;
+}
+
+.nav-list a.active {
+    color: #111;
+    font-weight: 450;
+}
+
+.lang-switch {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+}
+
+.lang-switch button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    color: #999;
+    letter-spacing: 0.1em;
+    transition: color 0.3s ease;
+}
+
+.lang-switch button:hover {
+    color: #555;
+}
+
+.lang-switch button.active {
+    color: #111;
+    font-weight: 450;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 180px 2rem 6rem 2rem;
+}
+
+.about-hero {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.about-hero h1 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+    color: #111;
+}
+
+.about-hero p {
+    font-size: 1.25rem;
+    font-weight: 350;
+    color: #333;
+    max-width: 600px;
+    line-height: 1.6;
+    }
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.about-text p {
+    font-size: 1.125rem;
+    font-weight: 350;
+    color: #444;
+    line-height: 1.8;
+    max-width: 700px;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 0 1.5rem;
+        height: 80px;
+    }
+    
+    .nav-content {
+        gap: 2rem;
+    }
+    
+    .nav-list {
+        gap: 1.5rem;
+    }
+    
+    .logo img {
+        height: 35px;
+    }
+    
+    .about-content {
+        padding: 140px 1.5rem 4rem 1.5rem;
+    }
+    
+    .about-hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .about-hero p {
+        font-size: 1.125rem;
+    }
+    
+    .about-text p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .header {
+        padding: 0 1rem;
+    }
+    
+    .nav-content {
+        gap: 1rem;
+    }
+    
+    .nav-list {
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .about-content {
+        padding: 120px 1rem 3rem 1rem;
+    }
+    
+    .about-hero h1 {
+        font-size: 2rem;
+    }
+    
+    .about-hero p {
+        font-size: 1rem;
+    }
+}

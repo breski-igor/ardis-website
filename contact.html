@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ardis – Kontakt</title>
+    <link rel="stylesheet" href="style_contact.css">
+</head>
+
+<body>
+    <header class="header header-fixed">
+        <div class="logo">
+            <a href="main.html" aria-label="Home">
+                <img src="pics/Ardis_fin.png" alt="Ardis Logo">
+            </a>
+        </div>
+        
+        <div class="nav">
+            <div class="nav-content">
+                <ul class="nav-list">
+                    <li><a href="main.html" data-key="home">Početna</a></li>
+                    <li><a href="about.html" class="active" data-key="about">O nama</a></li>
+                    <li><a href="contact.html" data-key="contact">Kontakt</a></li>
+                </ul>
+                
+                <div class="lang-switch">
+                    <button class="active" data-lang="hr">HR</button>
+                    <span>/</span>
+                    <button data-lang="en">EN</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="contact-content">
+
+        <section class="contact-hero">
+            <h1 data-key="contact-title">Kontakt</h1>
+            <p data-key="contact-intro">
+                Otvoreni smo za suradnje, nove projekte i razgovore o prostoru.
+                Vjerujemo u dijalog kao temelj svake kvalitetne arhitekture.
+            </p>
+        </section>
+
+
+        <section class="contact-info">
+
+            <div class="info-block">
+                <span data-key="contact-address-label">Adresa</span>
+                <p data-key="contact-address">
+                    Zvonigraska 21<br>Zagreb, Hrvatska
+                </p>
+            </div>
+
+            <div class="info-block">
+                <span data-key="contact-email-label">Email</span>
+                <p>info@ardis.hr</p>
+            </div>
+
+            <div class="info-block">
+                <span data-key="contact-phone-label">Telefon</span>
+                <p>+385 98 9585 718</p>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

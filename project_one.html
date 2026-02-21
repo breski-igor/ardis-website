@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ardis – Arhitektonski ured</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+    <header class="header header-fixed">
+        <div class="logo">
+            <a href="main.html" aria-label="Home">
+                <img src="pics/Ardis_fin.png" alt="Ardis Logo">
+            </a>
+        </div>
+        
+        <div class="nav">
+            <div class="nav-content">
+                <ul class="nav-list">
+                    <li><a href="main.html" data-key="home">Početna</a></li>
+                    <li><a href="about.html" class="active" data-key="about">O nama</a></li>
+                    <li><a href="contact.html" data-key="contact">Kontakt</a></li>
+                </ul>
+                
+                <div class="lang-switch">
+                    <button class="active" data-lang="hr">HR</button>
+                    <span>/</span>
+                    <button data-lang="en">EN</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="about-content">
+
+        <section class="about-hero">
+            <h1 data-key="project-title">Beauty salon N</h1>
+            <p data-key="project-subtitle">Vrbani, Zagreb — 2017</p>
+        </section>
+
+        <section class="project-gallery">
+            <img src="pics/Salon N/salon3.png" alt="Beauty salon N 1">
+            <img src="pics/Salon N/POSTOJECE STANJE.jpg" alt="Beauty salon N 2">
+            <img src="pics/Salon N/MANIK POST.jpg" alt="Beauty salon N 4">
+            <img src="pics/Salon N/SALON_NOVO.jpg" alt="Beauty salon N 3">
+            <img src="pics/Salon N/salon1.png" alt="Beauty salon N 5">
+            <img src="pics/Salon N/salon2.png" alt="Beauty salon N 6">
+            <img src="pics/Salon N/salon izv_1.png" alt="Beauty salon N 8">
+            <img src="pics/Salon N/salon izv_2.png" alt="Beauty salon N 9">
+        </section>
+
+        <section class="project-description">
+            <h2 data-key="project-description-title">Opis</h2>
+            <p data-key="project-description-1">
+                Projekt se bavio uređenjem roh-bau prostora površine svega 33 m², izrazito nepravilnog tlocrta s denivelacijom u jednom dijelu prostora.
+                Unutar zadanih gabarita bilo je potrebno funkcionalno organizirati malu čekaonicu te prostore za pedikuru, manikuru i depilaciju.
+            </p>
+
+            <p data-key="project-description-2">
+                Zbog vrlo ograničenog budžeta, projektna rješenja temeljila su se na racionalnom pristupu i iskorištavanju postojećih materijala.
+                Dio zidova ostavljen je u vidljivom betonu, pod je izveden kao cementni lijevani,
+                dok je spušteni strop predviđen isključivo u dijelu potrebnom za provođenje instalacija.
+            </p>
+
+            <p data-key="project-description-3">
+                Cjelokupan prostor oblikovan je u duhu low-budget estetike, bez suvišnih intervencija.
+                Rezultat je mali, ali maksimalno funkcionalan prostor koji jasno odgovara svim zahtjevima naručitelja.
+            </p>
+        </section>
+
+        <section class="project-info">
+            <div>
+                <span data-key="project-label-project">Projekt</span>
+                <p>Beauty salon N</p>
+            </div>
+
+            <div>
+                <span data-key="project-label-year">Godina</span>
+                <p>2017</p>
+            </div>
+
+            <div>
+                <span data-key="project-label-investor">Investitor</span>
+                <p data-key="project-label-investor-type">Privatni</p>
+            </div>
+
+            <div>
+                <span data-key="project-label-location">Lokacija</span>
+                <p>Zagreb, Vrbani</p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

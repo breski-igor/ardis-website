@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ardis – Arhitektonski ured</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+    <header class="header header-fixed">
+        <div class="logo">
+            <a href="main.html" aria-label="Home">
+                <img src="pics/Ardis_fin.png" alt="Ardis Logo">
+            </a>
+        </div>
+        
+        <div class="nav">
+            <div class="nav-content">
+                <ul class="nav-list">
+                    <li><a href="main.html" data-key="home">Početna</a></li>
+                    <li><a href="about.html" class="active" data-key="about">O nama</a></li>
+                    <li><a href="contact.html" data-key="contact">Kontakt</a></li>
+                </ul>
+                
+                <div class="lang-switch">
+                    <button class="active" data-lang="hr">HR</button>
+                    <span>/</span>
+                    <button data-lang="en">EN</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="about-content">
+
+        <section class="about-hero">
+            <h1 data-key="bundek-title">Tematski park Bundek – istok</h1>
+            <p data-key="bundek-subtitle">Zagreb, Novi Zagreb — 2017</p>
+        </section>
+
+        <section class="project-gallery">
+            <img src="pics/Bundek_2017/PNG/03_B.png" alt="Park">
+            <img src="pics/Bundek_2017/PNG/01_B.png" alt="Park">
+            <img src="pics/Bundek_2017/PNG/02_B.png" alt="Park">
+            <img src="pics/Bundek_2017/PNG/04_B.png" alt="Park">
+        </section>
+
+        <section class="project-description">
+            <h2 data-key="bundek-description-title">Opis</h2>
+            <p data-key="bundek-description-1">
+                Prostor novog parka nalazi se između Bundeka, Save i naselja Novog Zagreba te danas djeluje izolirano i sadržajno nepovezano s okolinom. 
+                Projektom se park oblikuje kao poveznica između rijeke, jezera i grada, s naglaskom na javni, fleksibilni i fazno izvedivi prostor. 
+            </p>
+
+            <p data-key="bundek-description-2">
+                Koncept se temelji na mreži staza i zelenih „otoka“ koji uvažavaju postojeći krajobraz i stvaraju niz mikroambijenata za sport, rekreaciju, odmor i društvena događanja. 
+                Park je zamišljen kao dinamičan, prilagodljiv prostor socijalne interakcije, s jasnim zoniranjem sadržaja i naglašenom vizualnom i prostornom povezanošću prema Savi.
+            </p>
+
+        </section>
+
+        <section class="project-info">
+            <div>
+                <span data-key="bundek-label-project">Projekt</span>
+                <p>Tematski park Bundek - istok, natječaj  - 1. nagrada</p>
+            </div>
+
+            <div>
+                <span data-key="bundek-label-authors">Autori</span>
+                <p>Iva Pejić, Kristina Jeren</p>
+            </div>
+
+            <div>
+                <span data-key="bundek-label-year">Godina</span>
+                <p>2017</p>
+            </div>
+
+            <div>
+                <span data-key="bundek-label-investor">Investitor</span>
+                <p data-key="bundek-label-inestor-type">Grad Zagreb</p>
+            </div>
+
+            <div>
+                <span data-key="bundek-label-location">Lokacija</span>
+                <p>Zagreb, Novi Zagreb</p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
