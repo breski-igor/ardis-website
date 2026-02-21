@@ -287,7 +287,7 @@ body.loaded {
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: right 0.4s ease;
+        transition: right 0.6s ease;
         z-index: 1000;
     }
     
@@ -306,10 +306,11 @@ body.loaded {
         gap: 2rem;
     }
     
-   .nav-list a,
-    .nav-list a.active {
-        font-weight: 350; 
+  .nav-list a.active {
+        font-weight: 500;      
+        font-size: 1.5rem; 
         color: #111;
+        letter-spacing: 0.03em;
     }
     
     .lang-switch {
