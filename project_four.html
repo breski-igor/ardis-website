@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ardis – Arhitektonski ured</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+    <header class="header header-fixed">
+        <div class="logo">
+            <a href="index.html" aria-label="Home">
+                <img src="pics/Ardis_fin.png" alt="Ardis Logo">
+            </a>
+        </div>
+        
+        <button class="hamburger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="nav">
+            <div class="nav-content">
+                <ul class="nav-list">
+                    <li><a href="index.html" data-key="home">Početna</a></li>
+                    <li><a href="about.html" class="active" data-key="about">O nama</a></li>
+                    <li><a href="contact.html" data-key="contact">Kontakt</a></li>
+                </ul>
+                
+                <div class="lang-switch">
+                    <button class="active" data-lang="hr">HR</button>
+                    <span>/</span>
+                    <button data-lang="en">EN</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="about-content">
+
+        <section class="about-hero">
+            <h1 data-key="stan-title">Rekonstrukcija stambenog prostora</h1>
+            <p data-key="stan-subtitle">Zagreb, Trešnjevka — 2015</p>
+        </section>
+
+        <section class="project-gallery">
+            <img src="pics/stan/DSCF6116-2.jpg" alt="stan">
+            <img src="pics/stan/DSCF6124-2.jpg" alt="stan">
+            <img src="pics/stan/DSCF6131-2.jpg" alt="stan">
+            <img src="pics/stan/DSCF6139-2.jpg" alt="stan">
+            <img src="pics/stan/DSCF6143-2.jpg" alt="stan">
+            <img src="pics/stan/DSCF6155-2.jpg" alt="stan">
+            <img src="pics/stan/postojece c.jpg" alt="stan">
+            <img src="pics/stan/realizacija c.jpg" alt="stan">
+            <img src="pics/stan/rusenje c.jpg" alt="stan">
+            <img src="pics/stan/rusenje2 c.jpg" alt="stan">
+            <img src="pics/stan/STAN C POST.jpg" alt="stan">
+            <img src="pics/stan/STAN C NOVO.jpg" alt="stan">
+        </section>
+
+        <section class="project-description">
+            <h2 data-key="stan-description-title">Opis</h2>
+            <p data-key="stan-description-1">
+                Stan od 48 m² u potkrovlju zgrade iz sredine 1960-ih rekonstruiran je unutar skromnog budžeta.
+            </p>
+
+            <p data-key="stan-description-2">
+                Projekt je uključivao uklanjanje svih unutarnjih zidova, instalacija, stolarije i obloga do “gole” konstrukcije zidova, podova i krova.
+                Poseban izazov predstavljala je krovna konstrukcija. Za uvođenje galerije bilo je potrebno ukloniti postojeće razupore i stabilizirati krov. 
+                Prema preporuci statičara uvedena je čelična rešetka koja, osim konstruktivne uloge, ostaje vidljivi akcent prostora — 
+                podsjetnik na spoj funkcije, konstrukcije i estetike.
+            </p>
+            <p data-key="stan-description-3">
+                Galerija je izvedena od drvene građe manjih dimenzija kako bi podna konstrukcija podnijela opterećenje, 
+                dodajući oko 13 m² radnog prostora i novu prostornu dimenziju.
+                Stube, koje su ujedno i prostor za pohranu, su izvedene od iverala i OSB ploča, podovi laminat, keramika u kupaonici, 
+                a zidovi kuhinje obojeni perivom bojom — sve prilagođeno budžetu.
+            </p>
+            <p data-key="stan-description-4">
+                Uz angažman spretnog izvođača, projekt pokazuje da kvalitetan, funkcionalan i estetski prostor ne mora nužno biti financijski zahtjevan.
+
+            </p>
+        </section>
+
+        <section class="project-info">
+            <div>
+                <span data-key="stan-label-project">Projekt</span>
+                <p>Rekonstrukcija stambenog prostora</p>
+            </div>
+
+            <div>
+                <span data-key="stan-label-year">Godina</span>
+                <p>2015</p>
+            </div>
+
+            <div>
+                <span data-key="stan-label-investor">Investitor</span>
+                <p data-key="stan-label-inestor-type">Privatni</p>
+            </div>
+
+            <div>
+                <span data-key="stan-label-location">Lokacija</span>
+                <p>Zagreb, Trešnjevka</p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
