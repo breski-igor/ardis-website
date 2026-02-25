@@ -14,6 +14,7 @@ const translations = {
         "project-type-1": "projekt interijer",
         "project-type-2": "natječaj prvo mjesto",
         "project-type-3": "zgrada mješovite namjene",
+        "project-type-4": "rekonstrukcija stambenog prostora",
         "about-title": "O nama",
         "about-intro": "Ardis je arhitektonski ured posvećen promišljenom i suvremenom oblikovanju prostora. Vjerujemo u arhitekturu koja ne dominira, već suptilno nadopunjuje kontekst.",
         "about-paragraph1": "Naš rad temelji se na jasnoći koncepta, preciznosti detalja i poštovanju materijala. Svaki projekt razvijamo kroz dijalog s investitorom i prostorom, tražeći ravnotežu između funkcije, estetike i trajnosti.",
@@ -42,6 +43,7 @@ const translations = {
         "bundek-description-1": "Prostor novog parka nalazi se između Bundeka, Save i naselja Novog Zagreba te danas djeluje izolirano i sadržajno nepovezano s okolinom. Projektom se park oblikuje kao poveznica između rijeke, jezera i grada, s naglaskom na javni, fleksibilni i fazno izvedivi prostor.",
         "bundek-description-2": "Koncept se temelji na mreži staza i zelenih „otoka“ koji uvažavaju postojeći krajobraz i stvaraju niz mikroambijenata za sport, rekreaciju, odmor i društvena događanja. Park je zamišljen kao dinamičan, prilagodljiv prostor socijalne interakcije, s jasnim zoniranjem sadržaja i naglašenom vizualnom i prostornom povezanošću prema Savi.",
         "bundek-label-project": "Projekt",
+        "bundek-label-project-type": "Tematski park Bundek - istok, natječaj  - 1. nagrada",
         "bundek-label-authors": "Autori",
         "bundek-label-year": "Godina",
         "bundek-label-investor": "Investitor",
@@ -59,7 +61,19 @@ const translations = {
         "complex-label-investor": "Investitor",
         "complex-label-investor-type": "Privatni",
         "complex-label-location": "Lokacija",
-
+        "stan-title": "Rekonstrukcija stambenog prostora",
+        "stan-subtitle": "Zagreb, Trešnjevka — 2015",
+        "stan-description-title": "Opis",
+        "stan-description-1": "Stan od 48 m² u potkrovlju zgrade iz sredine 1960-ih rekonstruiran je unutar skromnog budžeta.",
+        "stan-description-2": "Projekt je uključivao uklanjanje svih unutarnjih zidova, instalacija, stolarije i obloga do gole konstrukcije zidova, podova i krova. Poseban izazov predstavljala je krovna konstrukcija. Za uvođenje galerije bilo je potrebno ukloniti postojeće razupore i stabilizirati krov. Prema preporuci statičara uvedena je čelična rešetka koja, osim konstruktivne uloge, ostaje vidljivi akcent prostora — podsjetnik na spoj funkcije, konstrukcije i estetike.",
+        "stan-description-3": "Galerija je izvedena od drvene građe manjih dimenzija kako bi podna konstrukcija podnijela opterećenje, dodajući oko 13 m² radnog prostora i novu prostornu dimenziju. Stube, koje su ujedno i prostor za pohranu, izvedene su od iverala i OSB ploča; podovi su laminat, keramika je u kupaonici, a zidovi kuhinje obojeni su perivom bojom — sve prilagođeno budžetu.",
+        "stan-description-4": "Uz angažman spretnog izvođača, projekt pokazuje da kvalitetan, funkcionalan i estetski prostor ne mora nužno biti financijski zahtjevan.",
+        "stan-label-project": "Projekt",
+        "stan-label-project-type": "Rekonstrukcija stambenog prostora",
+        "stan-label-year": "Godina",
+        "stan-label-investor": "Investitor",
+        "stan-label-inestor-type": "Privatni",
+        "stan-label-location": "Lokacija"
     },
     en: {
         home: "Home",
@@ -68,6 +82,7 @@ const translations = {
         "project-type-1": "interior design project",
         "project-type-2": "awarded first place",
         "project-type-3": "mixed-use building",
+        "project-type-4": "residential space reconstruction",
         "about-title": "About us",
         "about-intro": "Ardis is an architectural studio dedicated to thoughtful and contemporary space design. We believe in architecture that doesn't dominate, but subtly complements the context.",
         "about-paragraph1": "Our work is based on conceptual clarity, precision of details, and respect for materials. We develop each project through dialogue with the client and the space, seeking a balance between function, aesthetics, and durability.",
@@ -96,6 +111,7 @@ const translations = {
         "bundek-description-1": "The new park site is located between Bundek Lake, the Sava River, and the residential area of New Zagreb, currently acting as an isolated and programmatically disconnected space. The project redefines the park as a link between the river, the lake, and the city, emphasizing a public, flexible, and phasable environment.",
         "bundek-description-2": "The concept is based on a network of paths and green ‘islands’ that respect the existing landscape while creating a series of micro-environments for sports, recreation, relaxation, and social events. The park is conceived as a dynamic and adaptable space of social interaction, with clearly defined zones and strong visual and spatial connections towards the Sava River.",
         "bundek-label-project": "Project",
+        "bundek-label-project-type": "Bundek East Thematic Park, first place award",
         "bundek-label-authors": "Authors",
         "bundek-label-year": "Year",
         "bundek-label-investor": "Client",
@@ -113,7 +129,19 @@ const translations = {
         "complex-label-investor": "Client",
         "complex-label-investor-type": "Private",
         "complex-label-location": "Location",
-        
+        "stan-title": "Residential Space Renovation",
+        "stan-subtitle": "Zagreb, Trešnjevka — 2015",
+        "stan-description-title": "Description",
+        "stan-description-1": "A 48 m² attic apartment in a mid-1960s building was renovated within a modest budget.",
+        "stan-description-2": "The project included the removal of all internal walls, installations, joinery, and finishes down to the bare structural shell of the walls, floors, and roof. The roof structure presented a particular challenge. In order to introduce a gallery level, the existing bracing had to be removed and the roof stabilized. Following the structural engineer’s recommendation, a steel truss was introduced which, beyond its structural role, remains a visible spatial accent — a reminder of the connection between function, construction, and aesthetics.",
+        "stan-description-3": "The gallery was constructed using smaller-dimension timber elements to ensure the floor structure could withstand the load, adding approximately 13 m² of workspace and a new spatial dimension. The staircase, which also functions as storage, was built from chipboard and OSB panels; laminate flooring was used throughout, ceramic tiles in the bathroom, and the kitchen walls were painted with washable paint — all carefully adapted to the budget.",
+        "stan-description-4": "With the involvement of a skilled contractor, the project demonstrates that a high-quality, functional, and aesthetically refined space does not necessarily require a significant financial investment.",
+        "stan-label-project": "Project",
+        "stan-label-project-type": "Residential Space Renovation",
+        "stan-label-year": "Year",
+        "stan-label-investor": "Client",
+        "stan-label-inestor-type": "Private",
+        "stan-label-location": "Location"
     }
 };
 
